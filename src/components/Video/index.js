@@ -20,14 +20,13 @@ useEffect(() => {
         
         const result = await youtube.searchVideos(search, 6)
 
-    //if array empty - no video found
+
         if (result.length === 0) {
             setError(true)
         } else {
             setError(false)
         }
-    //else we will always have something
-        // console.log(result)
+
         setSelectedVideo(result[0])
         setVideoList(result)
         }
