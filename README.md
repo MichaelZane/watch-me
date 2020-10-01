@@ -1,4 +1,4 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/19602e51aa1666635be7/maintainability)](https://codeclimate.com/github/mzstevens69/watch-it/maintainability)
+<!-- [![Maintainability](https://api.codeclimate.com/v1/badges/19602e51aa1666635be7/maintainability)](https://codeclimate.com/github/mzstevens69/watch-it/maintainability) -->
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
 ![React](https://img.shields.io/badge/react-v16.7.0--alpha.2-blue.svg)
 
