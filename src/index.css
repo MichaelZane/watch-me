@@ -16,15 +16,33 @@ iframe {
   margin-top: 5%;
 }
 
+
 .form {
   margin-top: 3.5%;
 }
 
 .search-btn {
-  margin-top: 8%;
+  margin-top: 2%;
+  width: 12%;
+  height: 7%;
 }
 
 .random {
   width: 75%;
   height: 75%;
+  margin-right: 10%;
+}
+
+@media only screen and (max-width: 505px) {
+  iframe {
+    width: 450px;
+  }
+  img {
+    display: flex;
+    justify-content: center;
+  }
+  .search-btn {
+  
+    width: 25%;
+  }
 }

@@ -20,7 +20,7 @@ function App() {
         <Form onSubmit={e => onSubmit(e)} >
           <Form.Row className="search-box">
             <Col xs={12} md={2} style={{ margin: "auto" }}>
-              <img src= {require("../watchit.png")}  alt="watch it logo" width="100px" style={{ margin: "auto"}}/>
+              <img src= {require("../watchme.png")}  alt="watch me logo" width="100px" style={{ margin: "auto"}}/>
               </Col>
               <Col md={7} xs={9}>
             <Form.Control 
@@ -31,13 +31,13 @@ function App() {
               onChange={e => setSearch(e.target.value)} 
               />
             </Col>
-            <Col>
+            
             <Button 
               className="search-btn"
               onClick={(e) => onSubmit(e)}  
               variant="primary" 
-              size="lg">Get Video</Button>
-            </Col>
+              size="lg">Search</Button>
+            
           </Form.Row>
         </Form>
         </Col>
