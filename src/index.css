@@ -35,7 +35,7 @@ iframe {
 
 @media only screen and (max-width: 505px) {
   iframe {
-    width: 450px;
+    width: 400px;
   }
   img {
     display: flex;
